@@ -1,7 +1,9 @@
 Cách deploy web trên AWS:
-Bước 1: Tạo EC2 instance với cấu hình phù hợp.
-Bước 2: Kết nối SSH vào instance và cài đặt web server (Apache/Nginx).
-Bước 3: Triển khai mã nguồn ứng dụng và cấu hình máy chủ web.
-Bước 4: (Tùy chọn) Cấu hình tên miền và SSL cho ứng dụng.
-Bước 5: Đảm bảo bảo mật cho ứng dụng và EC2 instance.
-Bước 6: Giám sát và tối ưu hóa bằng các công cụ AWS.
+Bước 1: Tạo VPC
+Bước 2: Tạo Subnet
+Bước 3: Tạo Internet Gateway
+Bước 4: Cập nhật Route Table
+Bước 5: Tạo Security Group
+Bước 6: Tạo EC2 Instance
+Bước 7: Kết Nối và Cài Đặt Máy Chủ Web
+Bước 8: Tải Tệp Trang Web Lên Server
